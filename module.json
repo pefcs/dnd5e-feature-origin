@@ -1,0 +1,35 @@
+{
+  "id": "dnd5e-feature-origin",
+  "title": "D&D5e Feature Origin Setter",
+  "description": "Adds a “Feature origin” dropdown to D&D5e feature item sheets (type: feat) so you can set flags.dnd5e.advancementOrigin for proper Actor sheet sorting (Class/Subclass/Race/Background).",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "ChatGPT"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14.369",
+    "verified": "14.369",
+    "maximum": "14.999"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.6"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/feature-origin.js"
+  ],
+  "styles": [
+    "styles/feature-origin.css"
+  ],
+  "flags": {},
+  "readme": "README.md"
+}

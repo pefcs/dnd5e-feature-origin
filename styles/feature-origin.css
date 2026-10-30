@@ -1,0 +1,8 @@
+.feature-origin-group .notes {
+  margin-top: 2px;
+  opacity: 0.8;
+}
+/* Dark-friendly: rely on Foundry variables */
+.feature-origin-group select {
+  width: 100%;
+}
