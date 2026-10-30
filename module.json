@@ -1,7 +1,7 @@
 {
   "id": "dnd5e-feature-origin",
   "title": "D&D5e Feature Origin Setter",
-  "description": "Adds a “Feature origin” dropdown to D&D5e feature item sheets (type: feat) so you can set flags.dnd5e.advancementOrigin for proper Actor sheet sorting (Class/Subclass/Race/Background).",
+  "description": "Adds a Feature origin dropdown to D&D 5e feat item sheets, letting you assign the owning Class, Subclass, Species, Race, or Background so manually added features sort correctly on Actor sheets.",
   "version": "1.1.0",
   "authors": [
     {
@@ -31,5 +31,9 @@
     "styles/feature-origin.css"
   ],
   "flags": {},
-  "readme": "README.md"
+  "readme": "README.md",
+  "url": "https://github.com/pefcs/dnd5e-feature-origin",
+  "bugs": "https://github.com/pefcs/dnd5e-feature-origin/issues",
+  "manifest": "https://github.com/pefcs/dnd5e-feature-origin/releases/latest/download/module.json",
+  "download": "https://github.com/pefcs/dnd5e-feature-origin/releases/latest/download/module.zip"
 }
